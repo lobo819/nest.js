@@ -12,7 +12,6 @@ import { RoleGuard } from './guard/role.guard'
 import { SwaggerModule,DocumentBuilder } from '@nestjs/swagger'
 
 function MiddleWareAll(req:Request,res:Response,next:NextFunction){
-  console.log(13)
   next()
 }
 
